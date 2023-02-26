@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="gamescript.js"></script>
+    <link rel="stylesheet" href="gamestyle.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-RPS</title>
+</head>
+<body onload="scoreCheck()">
+   <div class="layout">
+    <div class="navbar">
+        <nav>
+            <a href="index.html"><h2 class="logo">Lali<span>thDu</span>tt</h2></a>
+            <ul>
+                <li><a href="aboutme.html">About ME</a></li>
+                <li><a href="interests.html">My interests</a></li>
+                <li><a href="engg.html">Why Engg?</a></li>
+                
+            </ul>
+            <a href="rps.html"><button type="button">RPS GAME</button></a>
+        </nav>
+    </div>
+    <br><br><br><br>
+    <center>
+        <div class="rules">
+            <p><ol>
+                <h4>Rules:</h4>
+                <h4><li>You should click on one of the inputs.</li></h4>
+                <h4><li>Computer selects one out of rock,paper,scissors randomly.</li></h4>
+                <h4><li>score will be awarded just as per normal rules of rock,paper,scissors.</li></h4>
+                <h4><li>One who scores 3 points first,wins!</li></h4>
+                <h4><li>Reset button will reset the all the settings and scores.</li></h4></ol>
+                <h4>ENJOY THE GAME :) </h4>
+            </p>
+        </div>
+        <div class="computerOut">
+            <p>
+             <h4>Computer Input:</h4>
+             <h4 id="Compout"></h4>
+             <img id="image" src="https://media.tenor.com/tkYDskXjHbYAAAAM/question-mark-animation.gif">
+             
+            </p>
+            </div>
+       
+            
+        <div class="game">
+            <br>
+            <h4>Rock,Paper,scissors!</h4>
+            <br>
+            <h4>Your Input:</h4>
+   <button class="input" value="rock" id="input" onclick="check()">rock</button>
+   <br>
+   <button class="input" value="paper" onclick="check1()">paper</button>
+   <br>
+   <button class="input" value="scissors" onclick="check2()">scissors</button>
+   <br>
+   <button class="input" value="reset" onclick="change()">Reset</button>
+   <br>
+        </div>
+        <br>
+        <div class="score">
+            <p class="Userscore">
+                Your score: <span class="ushow" id="show">0</span>
+            </p>
+            <p class="Computerscore">
+                Computer score: <span class="cshow">0</span>
+            </p>
+            </div>
+            <br>
+   </center>
+   </div>
+    </body>
+    <script src="script1.js"></script>
+</html>

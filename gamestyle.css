@@ -1,0 +1,108 @@
+.input {
+background-color: crimson;
+border: 2px solid grey;
+border-radius: 5px;
+color:white;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex;
+font-size: large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+cursor: pointer;
+}
+.input:hover {
+background-color: gold;
+
+}
+.input.disable {
+    pointer-events: none;
+}
+
+.Userscore,.Computerscore {
+font-size: larger;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+h4 {
+
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+img {
+ height: 200px;
+ width: 200px;
+
+
+}
+
+.game {
+
+    background-color: black;
+    display: flexbox;
+    max-height: 800px;
+    max-width: 400px;
+    border: 5px ;
+    border-radius: 4px;
+    border: 2px solid #4ca1f0;    
+}
+
+.rules {
+
+    background-color: black;
+    display: flexbox;
+    max-height: 800px;
+    max-width: 400px;
+    border: 5px ;
+    border-radius: 6px;
+    float: left;
+    border: 2px solid #4ca1f0;
+
+
+}
+ h4 ,p {
+    color:grey;
+}
+
+.computerOut {
+    background-color: black;
+    display: flexbox;
+    max-height: 600px;
+    max-width: 400px;
+    border: 5px ;
+    border-radius: 6px;
+    float: right;
+    position:sticky;
+    border: 2px solid #4ca1f0;
+
+    top: 50px;
+    right: 80px;
+
+
+}
+body  {
+
+    background-image: url("https://wallpaperaccess.com/full/1444269.jpg");
+
+    
+}
+
+.score {
+    background-color:black;
+    display: flexbox;
+    max-height: 300px;
+    max-width: 300px;
+    border: 5px ;
+    border-radius: 6px;
+    float:inherit;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #4ca1f0;
+
+}
